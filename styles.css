@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "norse";
+    src: url("font/norse-bold-webfont.woff") format("woff");
+    src: url("font/norse-bold-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    position:relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35,35,35);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 100vh;
+}
+
+.left-side {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 37.5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.right-side {
+    width: 62.5%;
+    background-color: rgb(255,255,255);
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.4);
+    font-family: "norse", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 5em;
+    height: 125px;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+
+}
+
+#credit {
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
